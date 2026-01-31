@@ -1,4 +1,35 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background: #4A4A48;
+    margin-top: 100px;
+}
+
+.card {
+    background: #D8DAD3;
+    color: #4A4A48;
+    margin: 0 auto;
+    width: 700px; 
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.card div {
+    padding: 20px;
+}
+
+h1 {
+    background: #A4C2A5;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+html {
+    font-family: Calibri
 }
